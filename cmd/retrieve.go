@@ -29,7 +29,7 @@ The ID must be the identifier for a password which has already been stored with 
 			return err
 		}
 
-		fmt.Printf("%s: %s\n", args[0], password)
+		fmt.Printf("%s: \"%s\"\n", args[0], password)
 		return nil
 	},
 }
